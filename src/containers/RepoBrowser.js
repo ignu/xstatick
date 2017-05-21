@@ -1,10 +1,14 @@
 /* flow  */
 import React from 'react'
 
-Props = mixed
+type Props = {
+  userName?: any
+}
 
-const RepoBrowser = (props: Props) => {
+const RepoBrowser = (props:Props) => {
   return (<div>
     <input type="text"/>
   </div>)
 }
+
+export default RepoBrowser
